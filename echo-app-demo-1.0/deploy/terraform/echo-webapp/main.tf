@@ -1,11 +1,13 @@
 terraform {
   backend "azurerm" {
-        resource_group_name  = "tf-storage-rg"
-        storage_account_name = "echoapptfbackend"
+        resource_group_name  = "kfernandes-tfstate-rg"
+        storage_account_name = "kfernandestfstatestg"
         container_name       = "tfstate"
         key                  = "terraform.tfstate"
     }
 }
+
+
 
 provider "azurerm" {
   use_oidc = true
