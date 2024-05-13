@@ -1,3 +1,3 @@
-appName = "tbernardo-echo-app"
+appName = "kfernandes-echo-app"
 appServiceName = "webapp"
 apiName = "api"
